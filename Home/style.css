@@ -1,0 +1,328 @@
+#home
+{
+	background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5,4,46,0.7)), url("../images/bg_home.jpg");
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-top: 40px;
+}
+
+#home h2
+{
+	color: #fff;
+	font-size: 2.2rem;
+	letter-spacing: 1px;
+}
+
+#home p
+{
+	width: 50%;
+	color: #fff;
+	font-size: 0.9rem;
+	line-height: 25px;
+}
+
+#home .btn
+{
+	margin-top: 30px;
+}
+
+#home a
+{
+	text-decoration: none;
+	font-size: 0.9rem;
+	padding: 13px 35px;
+	background-color: #fff;
+	font-weight: 600;
+	border-radius: 5px;
+}
+
+#home a.blue
+{
+	color: #fff;
+	background: rgb(21, 21, 100);
+	transition: 0.3s ease;
+}
+
+#home a.blue:hover
+{
+	color: rgb(21, 21, 100);
+	background: #fff;
+}
+
+#home a.yellow
+{
+	color: #fff;
+	background: #fdc938;
+	transition: 0.3s ease;
+}
+
+#home a.yellow:hover
+{
+	color: rgb(21, 21, 100);
+	background: #fff;
+}
+
+#features
+{
+	padding: 5vw 8vw 0 8vw;
+	text-align: center;
+}
+
+#features .fea-base
+{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 1rem;
+	margin-top: 50px;
+}
+
+#features .fea-box
+{
+	background: #edf1f2;
+	text-align: start;
+	padding: 1.2rem;
+	border-radius: 6px;
+}
+
+#features .fea-box i
+{
+	font-size: 2.3rem;
+	color: rgb(44, 44, 80);
+}
+
+#features .fea-box h3
+{
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: rgb(46, 46, 59);
+	padding: 13px 0 7px 0;
+}
+
+#features .fea-box p
+{
+	font-size: 1rem;
+	font-weight: 400;
+	color: rgb(70, 70, 87);
+}
+
+#Teachers
+{
+	padding: 8vw 8vw 8vw 8vw;
+	text-align: center;
+}
+
+#Teachers .Teachers-box
+{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 1rem;
+	margin-top: 50px;
+}
+
+#Teachers .Teachers
+{
+	text-align: start;
+	background: #edf1f2;
+	height: 100%;
+	position: relative;
+}
+
+#Teachers .Teachers img
+{
+	width: 100%;
+	height: 60%;
+	background-size: cover;
+	background-position: center;
+}
+
+#Teachers .Teachers .details
+{
+	padding: 15px 15px 0 15px;
+}
+
+#Teachers .Teachers .details i
+{
+	color: #fdc93b;
+	font-size: .9rem;
+}
+
+#Teachers .Teachers .cost
+{
+	background-color: rgb(74, 74, 136);
+	color: #fff;
+	line-height: 70px;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	border-radius: 50%;
+	position: absolute;
+	right: 15px;
+	bottom: 100px;
+}
+
+#registration
+{
+	padding: 6vw 8vw 6vw 8vw;
+	background-image: linear-gradient(rgba(99,112,168,0.5), rgba(81,91,233,0.5)),url("../images/bg_home.jpg");
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#registration .reminder, #registration .reminder h1
+{
+	color: #fff;
+}
+
+#registration .reminder .time
+{
+	display: flex;
+	margin-top: 40px;
+}
+
+#registration .reminder .time .date
+{
+	text-align: center;
+	padding: 13px 33px;
+	background: rgba(255, 255, 255, 0.25);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	border-radius: 10px;
+	margin: 0 5px 10px 5px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	font-size: 1.1rem;
+	font-weight: 600;
+}
+
+#registration .form
+{
+	background: #fff;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+#registration .form input
+{
+	margin: 15px 0;
+	padding: 15px 10px;
+	border: 1px solid rgb(84, 40, 241);
+	outline: none;
+}
+
+#registration .form input::placeholder
+{
+	color: #413c3c;
+	font-weight: 500;
+	font-size: 0.9rem;
+}
+
+#registration .form .btn
+{
+	margin-top: 20px;
+}
+
+#registration .form a.yellow
+{
+	text-decoration: none;
+	font-size: 0.9rem;
+	padding: 13px 35px;
+	background-color: #fff;
+	font-weight: 600;
+	border-radius: 5px;
+	color: #fff;
+	background: #fdc938;
+	transition: 0.3s ease;
+}
+
+#registration .form a.yellow:hover
+{
+	color: rgb(21, 21, 100);
+	background: #fff;
+}
+/*------------- Registration section styling end ----------*/
+
+
+
+/*------------- Experts section styling starts ----------*/
+#experts
+{
+	padding: 8vw 8vw 8vw 8vw;
+	text-align: center;
+}
+
+#experts .expert-box
+{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 1rem;
+	margin-top: 50px;
+}
+
+#experts .expert-box .profile
+{
+	background: #fafaf1;
+	padding: 30px 10px;
+	box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+#experts .expert-box .profile:hover
+{
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.pro-links
+{
+	margin-top: 10px;
+}
+
+.pro-links i
+{
+	padding: 10px 13px;
+	border: 1px solid rgb(21, 21, 100);
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+.pro-links i:hover
+{
+	background: rgb(21, 21, 100);
+	color: #fff;
+}
+
+
+@media screen and (max-width: 475px)
+{
+	#registration
+	{
+		flex-direction: column;
+	}
+
+	.reminder p, .reminder h1
+	{
+		text-align: center;
+	}
+
+	.reminder h1
+	{
+		font-size: 1.8rem;
+	}
+
+	#registration .reminder .time
+	{
+		justify-content: space-evenly;
+		margin-top: 20px;
+	}
+}
