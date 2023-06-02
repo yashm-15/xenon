@@ -1,7 +1,7 @@
 ## Login Credentials
 
 - Email : xyz@gmail.com
-- Password : Xyz@1234
+- Password : Xyz@1234 (Validation:- At Least(One uppercase, one lowecase, one character, one number), Minimum length = 8
 - Url of Project : https://xenonstack.000webhostapp.com
 
 
